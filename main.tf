@@ -7,7 +7,7 @@ provider "aws" {
 }
 
 resource "aws_instance" "ubuntu" {
-  ami           = "${data.aws_ami.latest-ubuntu}"
+  ami           = "${data.aws_ami.latest-ubuntu.id}"
   instance_type = "${var.instance_type}"
   availability_zone = "${var.aws_region}a"
 
