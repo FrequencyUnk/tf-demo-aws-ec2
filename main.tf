@@ -13,8 +13,8 @@ resource "aws_instance" "ubuntu" {
 
   tags = {
     Name = "${var.name}"
-    ttl = "24h"
-    owner = "jeremy" 
+    #ttl = "24h"
+    #owner = "jeremy" 
     se-region = "C1" 
     purpose = "Demo"
     terraform = "True"
