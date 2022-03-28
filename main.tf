@@ -12,12 +12,12 @@ resource "aws_instance" "ubuntu" {
   availability_zone = "${var.aws_region}a"
 
   tags = {
-    Name = "${var.name}"
-    ttl = "24h"
-    owner = "jeremy" 
-    se-region = "C1" 
-    purpose = "Demo"
-    terraform = "True"
+    #Name = "${var.name}"
+    #ttl = "24h"
+    #owner = "jeremy" 
+    #se-region = "C1" 
+    #purpose = "Demo"
+    #terraform = "True"
   }
 }
 
