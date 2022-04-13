@@ -15,7 +15,7 @@ resource "aws_instance" "ubuntu" {
     #Name = "${var.name}"
     #ttl = "24h"
     #owner = "jeremy" 
-    se-region = "C1" 
+    #se-region = "C1" 
     purpose = "Demo"
     terraform = "True"
   }
