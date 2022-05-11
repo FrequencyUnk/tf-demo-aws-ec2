@@ -16,7 +16,7 @@ resource "aws_instance" "ubuntu" {
     #ttl = "24h"
     #owner = "jeremy" 
     #se-region = "C1" 
-    purpose = "Demo"
+    #purpose = "Demo"
     terraform = "True"
   }
 }
