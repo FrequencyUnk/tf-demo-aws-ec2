@@ -1,6 +1,6 @@
-output "public_dns" {
-  value = "${aws_instance.app_server.public_dns}"
-}
+#output "public_dns" {
+#  value = "${aws_instance.app_server.public_dns}"
+#}
 
 output "ubuntu_iteration" {
   value = data.hcp_packer_iteration.ubuntu
