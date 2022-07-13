@@ -34,7 +34,7 @@ resource "aws_instance" "ubuntu" {
   instance_type = "t2.micro"
   tags = {
     #Name = "Learn-HCP-Packer"
-    ttl = "24h"
+    #ttl = "24h"
     owner = "jeremy" 
     se-region = "C1" 
     purpose = "Demo"
